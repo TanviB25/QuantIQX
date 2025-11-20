@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; padding: 0;
+    background: #f8f9fa;
+}
+
+header {
+    background: #002f5f;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.projects {
+    padding: 2rem;
+}
+
+.card {
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-left: 4px solid #002f5f;
+}
