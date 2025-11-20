@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quision - Quant Education</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f8f8; }
+        header { background:#002f5f; color:white; padding:30px 20px; text-align:center; }
+        header h1 { margin:0; }
+        .intro { text-align:center; padding:20px; }
+        .blogs { display:flex; flex-wrap:wrap; justify-content:center; padding:20px; gap:20px; }
+        .blog-card { background:white; border-radius:8px; padding:20px; width:300px; box-shadow:0 2px 6px rgba(0,0,0,0.1); transition:transform 0.2s; }
+        .blog-card:hover { transform:translateY(-5px); }
+        .blog-card h3 { margin-top:0; color:#002f5f; }
+        .blog-card p { font-size:14px; color:#333; }
+        .blog-card a { text-decoration:none; color:#cc0000; font-weight:bold; display:inline-block; margin-top:10px; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Quision</h1>
+    <p>Learn Quant Finance, Macro & Trading Analytics with Interactive Projects</p>
+</header>
+
+<section class="intro">
+    <p>Explore interactive dashboards, ARIMA forecasting, portfolio optimization, and more.</p>
+</section>
+
+<section class="blogs">
+    <div class="blog-card">
+        <h3>Macro-Financial Dashboard</h3>
+        <p>Interactive BIS-style graphs for GDP, inflation, and interest rates. Learn data visualization and macro analysis.</p>
+        <a href="blog/macro_dashboard.html">Read More</a>
+    </div>
+
+    <div class="blog-card">
+        <h3>ARIMA Forecasting</h3>
+        <p>Time-series forecasting of macroeconomic indicators using ARIMA models. Explore predictive analytics with interactive charts.</p>
+        <a href="blog/arima_forecasting.html">Read More</a>
+    </div>
+
+    <div class="blog-card">
+        <h3>Portfolio Optimization</h3>
+        <p>Visualize risk-return tradeoffs, minimum variance portfolios, and the efficient frontier using interactive charts.</p>
+        <a href="blog/portfolio_optimization.html">Read More</a>
+    </div>
+</section>
+
+</body>
+</html>
